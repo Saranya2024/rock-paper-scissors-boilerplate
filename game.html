@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1><span id="score1">0</span>-<span id="score2">0</span></h1>
+    <div class="container">
+        <div class="boxes">
+            <h2>You</h2>
+                <img src="" id="you-img">
+            <div class="sign">
+                <img onclick="rockfunction()" src="https://github.com/Saranya2024/rock-paper-scissors-boilerplate/blob/main/assets/rock-logo.png?raw=true" alt="">
+                <img onclick="paperfunction()" src="https://github.com/Saranya2024/rock-paper-scissors-boilerplate/blob/main/assets/paper-logo.png?raw=true" alt="">
+                <img onclick="scissorsfunction()" src="https://github.com/Saranya2024/rock-paper-scissors-boilerplate/blob/main/assets/scissors-logo.png?raw=true" alt="">
+            </div>
+        </div>
+        <img src="https://github.com/Saranya2024/rock-paper-scissors-boilerplate/blob/main/assets/vs.png?raw=true" alt="" id="vsimg">
+        <div class="boxes" id="compbox">
+            <h2>Comp</h2>
+            <img src="" alt="" id="comp-img">
+        </div>
+    </div>
+    <h2 id="win-msg"></h2>
+    <button id="play-again">PLAY AGAIN</button>
+<script src="game.js">
+</script>
+</body>
+</html>
