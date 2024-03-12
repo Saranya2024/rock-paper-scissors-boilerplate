@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://github.com/Saranya2024/rock-paper-scissors-boilerplate/blob/main/assets/bg.png?raw=true");
+    background-repeat: no-repeat;
+    font-family: poppins; 
+    text-align: center;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+.boxes{
+    height: 420px;
+    width: 400px;
+    border: 2px solid #FFD14A;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign img{
+    height: 80px;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sign:hover{
+   cursor: pointer;
+}
+
+#vsimg{
+    height: 500px;
+}
+button{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color:rgb(194, 143, 48);
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+}
